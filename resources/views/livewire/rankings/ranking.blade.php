@@ -1,3 +1,21 @@
+<nav class="bg-gray-50 dark:bg-gray-700">
+    <div class="py-3 px-4 mx-auto max-w-screen-xl md:px-6">
+        <div class="flex items-center">
+            <ul class="flex flex-row mt-0 mr-6 space-x-8 text-sm font-medium">
+                <li>
+                    <a href="/players" class="text-gray-900 dark:text-white hover:underline" aria-current="page">Jogadores</a>
+                </li>
+                <li>
+                    <a href="/teams" class="text-gray-900 dark:text-white hover:underline">Times</a>
+                </li>
+                <li>
+                    <a href="/" class="text-gray-900 dark:text-white hover:underline">Ranking</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
 <div>
     <div class="p-5 h-screen bg-gray-100" >
         <span class="text-xl mb-2 display:inline-block">Rankings dos Times</span>

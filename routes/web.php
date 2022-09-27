@@ -16,9 +16,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 // Route::get('/player', function () {
 //     return view('player');
@@ -26,5 +26,5 @@ Route::get('/', function () {
 
 Route::get('/players', Players::class);
 Route::get('/teams', Teams::class);
-Route::get('/rankings', Ranking::class);
+Route::get('/', Ranking::class);
 
